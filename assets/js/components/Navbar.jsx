@@ -17,7 +17,7 @@ const deconnected=()=>{
 return (
 
     <nav className="navbar navbar-expand-lg bg-secondary text-uppercase">
-  <NavLink  className="navbar-brand" to="/">Freelance</NavLink >
+  <NavLink  className="navbar-brand" to="/">Home</NavLink >
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -25,23 +25,23 @@ return (
   <div className="collapse navbar-collapse" id="navbarColor01">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">
-        <NavLink  className="nav-link" to="/costumers">Clients</NavLink >
+        <NavLink  className="nav-link" to="/costumers">Customers</NavLink >
       </li>
     </ul>
     
     <ul className="navbar-nav ml-auto">
       {!isAuthenticated && <>
       <li className="nav-item">
-        <NavLink className="nav nav-link" to="/inscription">Inscription</NavLink>
+        <NavLink className="nav nav-link" to="/inscription">sign up </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink  className="btn btn-success btn-sm" to="/connexion" >Connexion</NavLink >
+        <NavLink  className="btn btn-success btn-sm" to="/connexion" >Login </NavLink >
       </li>
       </> 
       }
       {isAuthenticated &&
       <li className="nav-item">
-        <button className="btn btn-danger btn-sm" onClick={deconnected}>Déconnexion</button>
+        <button className="btn btn-danger btn-sm" onClick={deconnected}>Logout</button>
       </li>
       }
     </ul>
