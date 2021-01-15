@@ -25,9 +25,6 @@ return (
   <div className="collapse navbar-collapse" id="navbarColor01">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">
-        <NavLink  className="nav-link" to="/invoices">Factures</NavLink >
-      </li>
-      <li className="nav-item">
         <NavLink  className="nav-link" to="/costumers">Clients</NavLink >
       </li>
     </ul>
