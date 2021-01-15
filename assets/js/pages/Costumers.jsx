@@ -29,7 +29,7 @@ const fetchCustomers= async () =>
   } 
   catch (error) 
   {
-    toast.error("impossible de chargé les client");
+    toast.error("it is impossible to charge customers :(");
   
   }
   
@@ -42,10 +42,10 @@ const deleteConsumer= async (id)=>{
   setData(filtre)
   try {
     await ConsumerApi.delete(id)
-    .then(response => { toast.info("le Client a été supprimer avec succée");})
+    .then(response => { toast.info("the customer was deleted successfully ;)");})
   } catch (error) {
     setData(cloneData)
-    toast.error("impossible de supprimer le client");
+    toast.error("it is impossible to delet the selected customer ");
   }
   
 }
@@ -82,9 +82,9 @@ const currentData=filteredCustomers.slice(indexOfFirstPost,indexOfLastPost);
 return ( 
 <div>
 <div className="mb-3 d-flex justify-content-between align-items-center">
-    <h1>Liste des clients</h1>
+    <h1>your customers list</h1>
         <Link to="/costomers/new" className="btn btn-primary">
-          Créer un client
+          Add a new customer
         </Link>
 </div>
 
@@ -101,8 +101,8 @@ return (
         <th scope="col">Last Name</th>
         <th>Email</th>
         <th>Entreprise</th>
-        <th className="text-center">Factures</th>
-        <th className="text-center">Montant total</th>
+        <th className="text-center">Bills</th>
+        <th className="text-center">Total amount</th>
         <th className="text-center"></th>
 
 
@@ -119,7 +119,7 @@ return (
         <td>{currentData.company}</td>
         <td className="text-center">{currentData.invoices.length}</td> 
         <td className="text-center">{currentData.totalAmount.toLocaleString()}</td>
-        <td className="text-center"> <button type="button" className="btn btn-danger btn-sm" onClick={()=>{deleteConsumer(currentData.id)}} >Supprimer</button>  </td>
+        <td className="text-center"> <button type="button" className="btn btn-danger btn-sm" onClick={()=>{deleteConsumer(currentData.id)}} >delete</button>  </td>
     </tr>
     )
   }

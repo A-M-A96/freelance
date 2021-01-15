@@ -86,6 +86,7 @@ function checkToken(token)
 return(
     <>
         <h1>Connexion</h1>
+        <br></br>
         {loading && <SemipolarLoading/> }
         <form onSubmit={handleSubmit}>
             <div className="form-group">

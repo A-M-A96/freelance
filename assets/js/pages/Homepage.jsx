@@ -9,7 +9,7 @@ return (
       
         <img className="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
     
-        <h1 className="masthead-heading text-uppercase mb-0">Application</h1>
+        <h1 className="masthead-heading text-uppercase mb-0">Telecommunications Software (RAE411) project </h1>
     
         <div className="divider-custom divider-light">
             <div className="divider-custom-line"></div>
@@ -17,7 +17,7 @@ return (
             <div className="divider-custom-line"></div>
         </div>
       
-        <p className="masthead-subheading font-weight-light mb-0">With - ApiPlatform - React.JS</p>
+        <p className="masthead-subheading font-weight-light mb-0">php - ApiPlatform - React.JS</p>
     </div>
   </header>
   <div class="pt-5">   
@@ -29,20 +29,20 @@ return (
         <div className="col-lg-4 mb-5 mb-lg-0">
             <h4 className="text-uppercase mb-4">About Me</h4>
             <p className="lead mb-0">
-            Développeur Symfony-React 
+            Mohamed Amine Abdessemed
                 <br />
-                avec une expérience de 4 ans
+                200ADM007
             </p>
         </div>
      
         <div className="col-lg-4 mb-5 mb-lg-0">
-            <h4 className="text-uppercase mb-4">Around the Web</h4>
+            <h4 className="text-uppercase mb-4">Symfony (API)</h4>
         </div>
       
         <div className="col-lg-4">
             <h4 className="text-uppercase mb-4">Take a look</h4>
             <p className="lead mb-0"> 
-                <a href="https://www.linkedin.com/in/badreddine-boukhalfa-a33062146/" target="_blank"> Check My linkedin </a>
+                <a href="https://github.com/AMAMinou/freelance" target="_blank"> check the project in github </a>
                 .
             </p>
         </div>
@@ -51,7 +51,7 @@ return (
 </footer>
 
 <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Freelance-bb 2020</small></div>
+            <div class="container"><small>Copyright © </small></div>
 </div>
 
 </>
