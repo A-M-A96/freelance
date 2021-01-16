@@ -91,7 +91,7 @@ return(
         <form onSubmit={handleSubmit}>
             <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="username" value={form.username}  onChange={handleChange}/>
+            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" name="username" value={form.username}  onChange={handleChange}/>
             <small id="username" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div className="form-group">

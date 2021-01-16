@@ -67,7 +67,7 @@ return (
 <div>
 
 <div className="mb-3 d-flex justify-content-between align-items-center">
-<h1>Formulaire d'inscription</h1>
+<h1>Registration Form</h1>
 </div>
 
 <form onSubmit={handleSubmit} >
