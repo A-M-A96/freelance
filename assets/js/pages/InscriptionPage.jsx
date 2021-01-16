@@ -72,15 +72,15 @@ return (
 
 <form onSubmit={handleSubmit} >
 
-<Field  name="firstName" type="text" placeholder="rensigner votre nom famille" handleChange={handleChange}  value={form.firstName} />
+<Field  name="firstName" type="text" placeholder="entre your surname" handleChange={handleChange}  value={form.firstName} />
 
-<Field  name="lastName" type="text" placeholder="rensigner votre Prénom" handleChange={handleChange}  value={form.lastName} />
+<Field  name="lastName" type="text" placeholder="entre your name" handleChange={handleChange}  value={form.lastName} />
 
-<Field  name="email" type="email" placeholder="saisissez voter mail " handleChange={handleChange}  value={form.email} />
+<Field  name="email" type="email" placeholder="entre your email " handleChange={handleChange}  value={form.email} />
 
-<Field  name="password" type="password" placeholder="entrer votre password" handleChange={handleChange}  value={form.password} />
+<Field  name="password" type="password" placeholder="entre your password" handleChange={handleChange}  value={form.password} />
 
-<Field  name="confirmpassword" type="password" placeholder="confirmer votre password" handleChange={handleChange}  value={form.confirmpassword} />
+<Field  name="confirmpassword" type="password" placeholder="confirm your password" handleChange={handleChange}  value={form.confirmpassword} />
 <div>
                  <button className="btn btn-primary" type="submit" value="Submit"> Registre </button>
                 

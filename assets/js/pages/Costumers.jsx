@@ -101,7 +101,7 @@ return (
         <th scope="col">Last Name</th>
         <th>Email</th>
         <th>Entreprise</th>
-        <th className="text-center">Bills</th>
+        <th className="text-center">number of Bills</th>
         <th className="text-center">Total amount</th>
         <th className="text-center"></th>
 
