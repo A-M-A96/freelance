@@ -92,10 +92,10 @@ return (
 </div>}
 <form onSubmit={handleSubmit} >
 
-        <Field  type="text"  placeholder="nom de famille du client" handleChange={handleChange} value = {costumer.firstName} name="firstName"/>
-        <Field  type="text"  placeholder="Prénom du client" handleChange={handleChange} value ={costumer.lastName} name="lastName"/>
-        <Field  type="email" placeholder="email du client" handleChange={handleChange} value ={costumer.email} name="email" />
-        <Field  type="text"  placeholder="l'entreprise du client" handleChange={handleChange} value ={costumer.company} name="company" />
+        <Field  type="text"  placeholder="customer familly name" handleChange={handleChange} value = {costumer.firstName} name="firstName"/>
+        <Field  type="text"  placeholder="customer name" handleChange={handleChange} value ={costumer.lastName} name="lastName"/>
+        <Field  type="email" placeholder="customer email" handleChange={handleChange} value ={costumer.email} name="email" />
+        <Field  type="text"  placeholder="customer company" handleChange={handleChange} value ={costumer.company} name="company" />
         <div>
                  <button className="btn btn-primary" type="submit" value="Submit"> Enregistrer </button>
                  <Link to="/costumers" className="btn btn-link">
