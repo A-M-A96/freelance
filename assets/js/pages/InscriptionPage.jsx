@@ -50,12 +50,12 @@ const inscription=async(form)=>{
     try {
         await userApi.registre(form);
         toast.success(
-          "Vous êtes désormais inscrit, vous pouvez vous connecter !"
+          "you have been registred you can now connect ;)"
         );
         history.replace("/connexion");
       } catch (error)
       {
-        toast.error("Un champs n'est pas correctement rensigné");
+        toast.error("the field has not been correctly filled");
       }
 
 }

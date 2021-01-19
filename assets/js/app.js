@@ -16,6 +16,7 @@ import InscriptionPage from './pages/InscriptionPage';
 import Connexion from './pages/Connexion';
 import AuthentificationApi from './services/AuthentificationApi';
 import { useState } from 'react';
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';

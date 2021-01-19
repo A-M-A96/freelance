@@ -41,10 +41,10 @@ const handleSubmit= async (event) => {
         try {
             const result= await custumerAPI.custumerPut(costumer,id);
             setLoading(false)
-            toast.success("le Client a été modifier avec succée");
+            toast.success("you have update the selected customer ");
             history.push('/costomers/'+id)
         } catch (error) {
-            toast.error("impossible de modifier le client");
+            toast.error("it is impossible to update the selected customer");
             setLoading(false);
         }
 
@@ -54,11 +54,11 @@ const handleSubmit= async (event) => {
         try {
             const result= await custumerAPI.custumerPost(costumer);
             setLoading(false)
-            toast.success("le Client a été ajouté avec succée");
+            toast.success("you have add a new customer ");
             history.replace('/costumers')
         } catch (error) {
             setLoading(false)
-            toast.error("impossible d'ajouter un client");
+            toast.error("it is not possible to add a customer");
         }
 
     }
@@ -76,7 +76,7 @@ const consumerget=async (id)=>
            
         })
     } catch (error) {
-        toast.error("le client n\'existe pas");
+        toast.error("customer doen't exist");
     }
 
 }

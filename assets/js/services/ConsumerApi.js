@@ -3,7 +3,7 @@ import { API_Customers } from '../config';
 
 
 
- function findAll()
+function findAll()
 {
     return  axios.get(API_Customers)
             .then(response =>response.data['hydra:member'])

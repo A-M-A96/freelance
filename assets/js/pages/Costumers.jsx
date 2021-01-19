@@ -6,9 +6,12 @@ import ConsumerApi from '../services/ConsumerApi';
 import {Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { CommonLoading } from 'react-loadingg';
+import AuthentificationApi from '../services/AuthentificationApi';
 
 
-const Costumers=()=>{
+AuthentificationApi.setup();
+
+const Costumers=({history})=>{
 
     const [data, setData] = useState([]);
     const [currentPage,setCurrentPage]= useState(1);
@@ -16,7 +19,7 @@ const Costumers=()=>{
     const [search,setSearch]=useState("");
     const [loading, setLoading] = useState(true);
     
-
+    
 useEffect(() => {fetchCustomers()
 },[]);
 
