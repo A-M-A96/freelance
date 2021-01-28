@@ -1,10 +1,27 @@
-you need these two servers to be able to run the application in you desktop:
+what you need to be able to run this project:
+
+1- git clone "the link of the project"
+
+2- cd "name of the project"
+
+3- you need to install the composer "for more information check https://getcomposer.org/download/ "
+
+4.npm install
+
+5- to create the database: " php bin/console doctrine:database:create "
+
+6- to create tables " php bin/console doctrine:schema:update --force: "
+
+7- to create data (random one) " composer require --dev orm-fixtures "
+
+finally you need to start the servers below: 
 
 
 1- npm run dev-server
 
 
 2- php -S 127.0.0.1:8000 -t public
+
 
 
 project idea.
@@ -15,6 +32,7 @@ a new freelancer can always been added to our project by simply sign up.
 
 
 for the technical information.
+
 the web site is mainly build using jsx which makes the writing of html in react eassier.
 for the database I used mysql database 
 I also wanted to include an api in my final project since it was an important part which was covered in the first lectures of our course 
