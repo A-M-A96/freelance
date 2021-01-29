@@ -85,10 +85,10 @@ return (
 <>
 {id != "new" &&
 <div className="mb-3 d-flex justify-content-between align-items-center">
-    <h1> Modifier un customer</h1>
+    <h1> update a customer</h1>
 </div>
 || <div className="mb-3 d-flex justify-content-between align-items-center">
-    <h1> Ajouter un customer</h1>
+    <h1> add a customer</h1>
 </div>}
 <form onSubmit={handleSubmit} >
 
@@ -99,7 +99,7 @@ return (
         <div>
                  <button className="btn btn-primary" type="submit" value="Submit"> Enregistrer </button>
                  <Link to="/costumers" className="btn btn-link">
-                 retour à la liste </Link>
+                 return to the list of customers </Link>
         </div>
 
 </form>
