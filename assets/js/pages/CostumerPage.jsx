@@ -85,10 +85,10 @@ return (
 <>
 {id != "new" &&
 <div className="mb-3 d-flex justify-content-between align-items-center">
-    <h1> update a customer</h1>
+    <h1> Update a customer</h1>
 </div>
 || <div className="mb-3 d-flex justify-content-between align-items-center">
-    <h1> add a customer</h1>
+    <h1> Add a customer</h1>
 </div>}
 <form onSubmit={handleSubmit} >
 
@@ -97,7 +97,7 @@ return (
         <Field  type="email" placeholder="customer email" handleChange={handleChange} value ={costumer.email} name="email" />
         <Field  type="text"  placeholder="customer company" handleChange={handleChange} value ={costumer.company} name="company" />
         <div>
-                 <button className="btn btn-primary" type="submit" value="Submit"> Enregistrer </button>
+                 <button className="btn btn-primary" type="submit" value="Submit"> Save </button>
                  <Link to="/costumers" className="btn btn-link">
                  return to the list of customers </Link>
         </div>
