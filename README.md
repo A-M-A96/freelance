@@ -26,15 +26,15 @@ finally you need to start the servers below:
 
 project idea.
 
-the idea of the project is to create a web page where our customers (freelancers) can easily check the list of his/her customers, update them, or completly add new ones.
-each freelancer before he/she accesses to the page which contains the list of cusomers need to log in even with email and Password or by using his/her google account.
-a new freelancer can always been added to our project by simply sign up.
+The idea of the project is to create a web page where our customers (freelancers) can easily check the list of their customers, update them, or completly add new ones.
+Each freelancer before he/she accesses the page; which contains the list of customers, need to log in either with email and Password or by using his/her google account.
+A new freelancer can always be added to our project by a simple sign up.
 
 
-for the technical information.
+For the technical information.
 
-the web site is mainly build using jsx which makes the writing of html in react eassier.
-for the database I used mysql database 
+The web site is mainly build using jsx which makes the writing of html in react eassier.
+For the database I used mysql database. 
 I also wanted to include an api in my final project since it was an important part which was covered in the first lectures of our course 
-and for that reason i used symfony which is a php component this api provides some information such us the http status, and also it provides some statistics graphically. 
+and for that reason I used symfony which is a php component this api provides some information such us the http status, and also it provides some statistics graphically. 
 
